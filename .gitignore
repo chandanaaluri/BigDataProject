@@ -1,0 +1,35 @@
+# Python cache & bytecode
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual environment
+venv/
+env/
+.venv/
+
+# Jupyter
+.ipynb_checkpoints
+*.nbconvert.ipynb
+*.nb.html
+*.log
+
+# Data and large files (do not push big datasets)
+agri_data.csv
+*.csv
+
+# Model artifacts
+*.joblib
+*.pkl
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+
+# Logs
+*.log
